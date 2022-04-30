@@ -1,0 +1,14 @@
+mn apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2022-04-11T20:05:51Z"
+  labels:
+    kubernetes.io/metadata.name: airflow
+  name: airflow
+  resourceVersion: "2217"
+  uid: efb59434-c352-4025-90ab-8fae76a2c721
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
